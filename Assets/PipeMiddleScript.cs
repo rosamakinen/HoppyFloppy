@@ -19,6 +19,9 @@ public class PipeMiddleScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        logic.AddScore();
+        if (collision.gameObject.layer == 3)
+        {
+            logic.AddScore(1);
+        }
     }
 }
