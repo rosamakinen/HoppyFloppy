@@ -13,7 +13,6 @@ public class FloppyScript : MonoBehaviour
 
     void Start()
     {
-        floppyIsAlive = true;
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
