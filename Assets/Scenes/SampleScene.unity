@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5596298, g: 0.9056604, b: 0.65246683, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -235,10 +235,10 @@ MonoBehaviour:
     m_MinSize: 0
     m_MaxSize: 288
     m_Alignment: 0
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 0
 --- !u!222 &314213818
@@ -817,10 +817,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 6
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -912,7 +912,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floppyRigidBody: {fileID: 1262529038}
-  wingPower: 20
+  wingPower: 21
+  logic: {fileID: 80088351}
+  floppyIsAlive: 0
 --- !u!58 &1262529042
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -7,19 +7,20 @@ using UnityEngine.UIElements;
 public class FloppyScript : MonoBehaviour
 {
     public Rigidbody2D floppyRigidBody;
-    public float wingPower = 22;
+    public float wingPower = 20;
     public LogicScript logic;
     public bool floppyIsAlive = true;
 
     void Start()
     {
+        floppyIsAlive = true;
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && floppyIsAlive)
+        if (Input.GetKeyDown(KeyCode.Space) == true && floppyIsAlive == true)
         {
             floppyRigidBody.velocity = Vector2.up * wingPower;
         }
