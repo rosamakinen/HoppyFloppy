@@ -12,6 +12,7 @@ Randomly generated pipes for endless gameplay.
 Score tracking to challenge friends and beat your own high score.
 
 <h5>How to Play</h5>
+[Play the game on itch.io](https://rmakinen.itch.io/hoppy)
 Tap the screen or click the mouse to flap the bird's wings.
 Navigate the bird through the gaps between the pipes.
 Avoid colliding with the ground or any pipes.
@@ -19,4 +20,4 @@ Keep flying as far as possible to increase your score.
   
 <h5>Credits</h5>
 This game was developed by Rosa as a project for learning Unity and C#.
-Sprites and assets were sourced from [source].
+Sprites and assets were sourced from Game Maker's Toolkit.
