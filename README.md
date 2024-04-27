@@ -1,6 +1,6 @@
 # HoppyFloppy
 
-<h2>🐤 Flappy Bird Game 🐤</h2>
+<h2>🐤 HoppyFloppy Game 🐤</h2>
 
 <h5>🔍 Description🔍 </h5>
 This is a clone of the classic Flappy Bird game developed using Unity and C#. The game replicates the addictive gameplay of the original, where the player controls a bird and navigates it through a series of pipes by tapping or clicking to flap its wings. The objective is to fly as far as possible without colliding with any obstacles.
